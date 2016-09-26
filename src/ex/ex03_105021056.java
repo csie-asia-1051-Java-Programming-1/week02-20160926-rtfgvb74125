@@ -17,7 +17,7 @@ int ih = scn.nextInt();
 int im = scn.nextInt();
 int oh = scn.nextInt();
 int om = scn.nextInt();
-double t = ((oh*60)+om) - ((ih*60)+im);
+int t = ((oh*60)+om) - ((ih*60)+im);
 int t1 = (int)(t/30);
 	if(t<=120){
 		System.out.println(t1*30);	
